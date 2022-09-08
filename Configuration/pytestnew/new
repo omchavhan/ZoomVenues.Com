@@ -1,0 +1,135 @@
+import  openpyxl
+# # read excel file in selenium webdriver. -----------
+# path = "C:\\Users\\GiTESH SONAR\\PycharmProjects\\GoogleAuto\\pytestnew\\Test Cases1.xlsx"
+# workbook=openpyxl.load_workbook(path)
+# sheet = workbook.get_sheet_by_name("Sheet1")
+# rows = sheet.max_row
+# cols = sheet.max_column
+# print(rows,cols)
+#
+# for r in range(1,rows+1):
+#     for c in range(1,cols+1):
+#         print(sheet.cell(row=r,column=c).value,end="  ")
+#
+#     print()
+
+# read specific row and col. ---
+# path = "C:\\Users\\GiTESH SONAR\\PycharmProjects\\GoogleAuto\\pytestnew\\Test Cases1.xlsx"
+# workbook=openpyxl.load_workbook(path)
+# sheet = workbook.get_sheet_by_name("Sheet1")
+# rows = (sheet["B4"].value)
+# print(rows)
+
+# write record in excel file --
+workbook=openpyxl.load_workbook("C:\\Users\\GiTESH SONAR\\PycharmProjects\\GoogleAuto\\pytestnew\\Test Cases1.xlsx")
+sheet = workbook.active
+sheet.title="new"
+print(sheet.title)
+sheet["A4"].value="automation in selenium"
+workbook.save("C:\\Users\\GiTESH SONAR\\PycharmProjects\\GoogleAuto\\pytestnew\\Test Cases1.xlsx")
+om chavanAutomation in python
+
+
+
+# find charecter:
+# name ="ooooooooooooooojfdj"
+# count ={}
+# for x in name:
+#     if x in count:
+#         count[x] +=1
+#     else:
+#         count[x] = 1
+# print(count)om sonarrrrrrrrrrrrrrrrrrrr
+
+# count words on file.
+Path=open("C:\\Users\\GiTESH SONAR\\PycharmProjects\\GoogleAuto\\pytestnew\\new","rt")
+data=Path.read()
+count = data.split()
+print("total count ",len(count))
+
+
+def first_non_repeating_character(str1):
+  char_order = []
+  ctr = {}
+  for c in str1:
+    if c in ctr:
+      ctr[c] += 1
+    else:
+      ctr[c] = 1
+      char_order.append(c)
+  for c in char_order:
+    if ctr[c] == 1:
+      return c
+  return None
+
+print(first_non_repeating_character(string))
+
+
+def mul(func):
+    def inner():
+        x=func()
+        return x*x
+    return inner()
+
+@mul
+def num():
+    return 10
+
+print(num)
+
+def Opertion(func):
+    def Num():
+        x=func()
+        return x*2
+    return Num()
+
+@Opertion
+def Mul():
+    return 4
+
+print(Mul)
+
+
+a="Om Govinda Sonar"
+a=a.split()
+z=a[0][0]+"."+a[1][0]+"."+a[2]
+print(z)
+
+
+list_1=[1,2,[3,5],4]
+list_2 = copy(list_1)
+list_2[3]=7
+list_2[2].append(6)
+print(list_2)
+print(list_1)
+
+names=["om","git","sonar","chavhan"]
+print(names[-1][-1])
+
+
+split() --
+1. remove # and
+name="OM#GOVINDA#SONAR"
+name=name.split("#",1)
+print(name) -------------o/p ['OM', 'GOVINDA#SONAR']
+
+2.
+
+
+def serch_suit():
+    driver.implicitly_wait(10)
+    serch_logo = driver.find_element_by_xpath("//*[@id='primary-menu']/li[8]/a/i")
+    serch_logo.click()
+    serchr_bar = driver.find_element_by_xpath("//*[@id='primary-menu']/li[8]/form/label/input")
+    try:
+        serchr_bar.send_keys("keybord")
+    except StaleElementReferenceException:
+        serchr_bar=driver.find_element_by_xpath("//*[@id='primary-menu']/li[8]/form/label/input")
+        serchr_bar.send_keys("keybord")
+        serchr_bar.send_keys(Keys.ENTER)
+
+
+marker -: pytest -m others -v  ---------other is marker name
+fixture -: pytest -k divisible -v
+Conftest.py -: To make a fixture available to multiple test files, we have to define the fixture function in a file called conftest.py. conftest.py
+Maxfail -: pytest test_failure.py -v --maxfail 1

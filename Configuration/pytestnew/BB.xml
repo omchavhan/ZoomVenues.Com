@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="7.227" timestamp="2021-11-17T18:53:18.165632" hostname="DESKTOP-GiTESH"><testcase classname="test_amz" name="test_FB" time="3.720" /></testsuite></testsuites>
