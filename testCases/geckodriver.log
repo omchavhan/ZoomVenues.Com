@@ -1,0 +1,89 @@
+1662975622069	geckodriver	INFO	Listening on 127.0.0.1:56642
+1662975625144	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56643" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\GITESH~1\\AppData\\Local\\Temp\\rust_mozprofilep22HUp"
+1662975627763	Marionette	INFO	Marionette enabled
+1662975627784	Marionette	INFO	Listening on port 56652
+WebDriver BiDi listening on ws://localhost:56643
+Read port: 56652
+1662975628370	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GITESH~1\\AppData\\Local\\Temp\\rust_mozprofilep22HUp\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56643/devtools/browser/2258b255-3cb2-48bc-aef3-8fb2d853a0f2
+JavaScript error: http://zoomvenues.info/, line 2725: ReferenceError: $ is not defined
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript error: http://vendor.zoomvenues.info/assets_new/js/bootstrap.min.js, line 6: Error: Please use show on visible elements
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://vendor.zoomvenues.info."
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:56928
+1662976176998	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56929" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\GITESH~1\\AppData\\Local\\Temp\\rust_mozprofileggIyKn"
+1662976179161	Marionette	INFO	Marionette enabled
+1662976179178	Marionette	INFO	Listening on port 56941
+WebDriver BiDi listening on ws://localhost:56929
+Read port: 56941
+1662976179694	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GITESH~1\\AppData\\Local\\Temp\\rust_mozprofileggIyKn\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56929/devtools/browser/f61d4a1b-4c17-47d5-ad09-aa3417277119
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript error: http://zoomvenues.info/, line 2734: ReferenceError: $ is not defined
+JavaScript error: http://vendor.zoomvenues.info/assets_new/js/bootstrap.min.js, line 6: Error: Please use show on visible elements
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://vendor.zoomvenues.info."
+1662976230739	Marionette	INFO	Stopped listening on port 56941
+1662976353907	geckodriver	INFO	Listening on 127.0.0.1:57047
+1662976356932	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57048" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\GITESH~1\\AppData\\Local\\Temp\\rust_mozprofilekMLFGb"
+1662976359099	Marionette	INFO	Marionette enabled
+1662976359118	Marionette	INFO	Listening on port 57057
+WebDriver BiDi listening on ws://localhost:57048
+Read port: 57057
+1662976359682	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GITESH~1\\AppData\\Local\\Temp\\rust_mozprofilekMLFGb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57048/devtools/browser/b24f5b80-22c6-4305-8f31-28373524ad20
+JavaScript error: http://zoomvenues.info/, line 2737: ReferenceError: $ is not defined
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript error: http://vendor.zoomvenues.info/assets_new/js/bootstrap.min.js, line 6: Error: Please use show on visible elements
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://vendor.zoomvenues.info."
+1662976587879	Marionette	INFO	Stopped listening on port 57057
+1662976790284	geckodriver	INFO	Listening on 127.0.0.1:57194
+1662976793319	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57195" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\GITESH~1\\AppData\\Local\\Temp\\rust_mozprofilewTVG5O"
+1662976794442	Marionette	INFO	Marionette enabled
+1662976794461	Marionette	INFO	Listening on port 57204
+WebDriver BiDi listening on ws://localhost:57195
+Read port: 57204
+1662976794969	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GITESH~1\\AppData\\Local\\Temp\\rust_mozprofilewTVG5O\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57195/devtools/browser/3bfe842b-22dc-4ee4-8121-ec93f79527aa
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript error: http://zoomvenues.info/, line 2730: ReferenceError: $ is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://zoomvenues.info."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://zoomvenues.info."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://zoomvenues.info."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://zoomvenues.info."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://zoomvenues.info."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://zoomvenues.info."
+JavaScript error: http://zoomvenues.info/event-venue/banquets, line 1878: ReferenceError: $ is not defined
+JavaScript error: http://zoomvenues.info/event-venue/banquets, line 5606: ReferenceError: google is not defined
+1662976886734	Marionette	INFO	Stopped listening on port 57204
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1662976990333	geckodriver	INFO	Listening on 127.0.0.1:57310
+1662976993357	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57311" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\GITESH~1\\AppData\\Local\\Temp\\rust_mozprofileMUwnNN"
+1662976995440	Marionette	INFO	Marionette enabled
+1662976995458	Marionette	INFO	Listening on port 57320
+Read port: 57320
+WebDriver BiDi listening on ws://localhost:57311
+1662976995977	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GITESH~1\\AppData\\Local\\Temp\\rust_mozprofileMUwnNN\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57311/devtools/browser/0c494003-01bd-41b1-a8c6-7b2f453ba4b8
+JavaScript error: http://zoomvenues.info/, line 2742: ReferenceError: $ is not defined
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://zoomvenues.info."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://zoomvenues.info."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://zoomvenues.info."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://zoomvenues.info."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://zoomvenues.info."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://zoomvenues.info."
+JavaScript error: http://zoomvenues.info/event-venue/banquets, line 1878: ReferenceError: $ is not defined
+JavaScript error: http://zoomvenues.info/event-venue/banquets, line 5606: ReferenceError: google is not defined
+1662977029235	Marionette	INFO	Stopped listening on port 57320
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

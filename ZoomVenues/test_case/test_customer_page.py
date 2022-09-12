@@ -1,6 +1,5 @@
 import time
 from telnetlib import EC
-import requests
 from selenium import webdriver
 from time import sleep
 

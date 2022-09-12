@@ -17,11 +17,11 @@ def setup(browser):
        # driver.maximize_window()
        print("Launching Chrome Browser.....")
     elif browser == 'firefox':
-        driver = webdriver.Firefox()
+        driver = webdriver.Firefox(executable_path="C:\\Users\\GiTESH SONAR\\PycharmProjects\\ZoomVenues.Com\\geckodriver.exe")
         # driver.maximize_window()
         print("Launching Firefox Browser.....")
     else:
-        driver = webdriver.Ie()    # Default browser run( not select any browser then)
+        driver = webdriver.Ie(executable_path="C:\\Users\\GiTESH SONAR\\PycharmProjects\\ZoomVenues.Com\\IEDriverServer.exe")    # Default browser run( not select any browser then)
     return driver
 
 def pytest_addoption(parser):   #This will get the value from CLI/hooks

@@ -4,7 +4,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
 #Below all Xpoth:
-driver = webdriver.Firefox(executable_path="/geckodriver.exe")
+# driver = webdriver.Firefox(executable_path="/geckodriver.exe")
 Email_loc = "//input[@type='email']"
 Next_button_loc = "//span[normalize-space()='Next']"
 

@@ -14,7 +14,7 @@ from utilites import XLUnites
 class Test_001_login:
 
     base_URL = ReadConfig.getApplicationURL()
-    path = "/TestData/LoginData.xlsx"
+    path = "C:\\Users\\GiTESH SONAR\\PycharmProjects\\ZoomVenues.Com\\TestData\\LoginData.xlsx"
     logger = LogGen.loggen()
 
     @pytest.mark.sanity

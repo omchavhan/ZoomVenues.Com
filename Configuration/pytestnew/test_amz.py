@@ -162,7 +162,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 def test_trip():
-    driver = webdriver.Chrome(executable_path="/chromedriver.exe")
+    # driver = webdriver.Chrome(executable_path="/chromedriver.exe")
     driver.implicitly_wait(10)
     driver.maximize_window()
     driver.get("https://www.expedia.com/")
