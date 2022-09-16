@@ -18,7 +18,7 @@ class EnquryBanquets:
     selectbugust_xpath = "//form[@id='enquiry-form']//select[@class='budget']"
     add_req_css = "form[id='enquiry-form'] textarea[placeholder='Additional Requirement:']"
     acc_term_css = "body > div:nth-child(3) > div:nth-child(9) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > form:nth-child(1) > div:nth-child(3) > label:nth-child(1) > input:nth-child(1)"
-    submit_xpath = "//*[@class='btn color2-bg url_btn float-btn btnSubmitEnquiry' and @id='btnSubmitEnquiry']"
+    submit_xpath = "(//*[@class='btn color2-bg url_btn float-btn btnSubmitEnquiry'])[2]"
 
     def __init__(self,driver):
         self.driver = driver
@@ -63,7 +63,7 @@ class EnquryBanquets:
         self.driver.find_element(By.CSS_SELECTOR, self.add_req_css).send_keys("nothing.........s")
 
     def setacc_term(self):
-        self.driver.find_element(By.CSS_SELECTOR, self.add_req_css).click()
+        self.driver.find_element(By.CSS_SELECTOR, self.acc_term_css).click()
 
 
     def setSubmit(self):

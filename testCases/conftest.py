@@ -14,11 +14,11 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 def setup(browser):
     if browser == 'chrome':
        driver = webdriver.Chrome(executable_path="C:\\Users\\GiTESH SONAR\\PycharmProjects\\ZoomVenues.Com\\chromedriver.exe")
-       # driver.maximize_window()
+       driver.maximize_window()
        print("Launching Chrome Browser.....")
     elif browser == 'firefox':
         driver = webdriver.Firefox(executable_path="C:\\Users\\GiTESH SONAR\\PycharmProjects\\ZoomVenues.Com\\geckodriver.exe")
-        # driver.maximize_window()
+        driver.maximize_window()
         print("Launching Firefox Browser.....")
     else:
         driver = webdriver.Ie(executable_path="C:\\Users\\GiTESH SONAR\\PycharmProjects\\ZoomVenues.Com\\IEDriverServer.exe")    # Default browser run( not select any browser then)

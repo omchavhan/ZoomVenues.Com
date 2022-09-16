@@ -17,8 +17,8 @@ from selenium.webdriver.support.wait import WebDriverWait
 
 
 
-# driver = webdriver.Chrome(executable_path="C:\\Users\GiTESH SONAR\\PycharmProjects\\GoogleAuto\\chromedriver.exe")
-driver = webdriver.Firefox(executable_path="/geckodriver.exe")
+driver = webdriver.Chrome(executable_path="C:\\Users\\GiTESH SONAR\\PycharmProjects\\ZoomVenues.Com\\chromedriver.exe")
+# driver = webdriver.Firefox(executable_path="/geckodriver.exe")
 zoomvenuesurl = "https://zoomvenues.info/"
 event_venues_css = "body > div:nth-child(3) > header:nth-child(1) > div:nth-child(12) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(1) > a:nth-child(1)"
 banquets_xpath = "//*[@id='main']/header/div[9]/nav/ul/li[1]/ul/li[1]/a"
@@ -970,12 +970,6 @@ def click_Party_Halls():
             driver.switch_to.window(parent_page)
     # driver.switch_to.window(parent_page)
     # logo_zoomvenues = driver.find_element_by_xpath("//*[@id='main']/header/a[1]/img").click()
-
-
-    try:
-        r = requests.get(zoomvenuesurl, timeout = 10)
-    except requests.Timeout as err:
-        print(err.message)
 
 
 def click_Yacht():

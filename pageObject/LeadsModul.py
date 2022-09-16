@@ -33,5 +33,10 @@ class LeadsModul:
         dropdown_venue_name = Select(click_venue_name)
         dropdown_venue_name.select_by_index(6)
 
+    def Logout(self):
+        self.driver.find_element(By.CSS_SELECTOR,".nav-link[data-toggle='dropdown']").click()
+        self.driver.find_element(By.CSS_SELECTOR,"body > div:nth-child(1) > nav:nth-child(1) > ul:nth-child(3) > div:nth-child(4) > a:nth-child(3) > div:nth-child(1) > div:nth-child(1) > h3:nth-child(1)").click()
+
+
 
 

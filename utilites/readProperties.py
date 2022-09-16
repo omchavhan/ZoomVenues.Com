@@ -20,6 +20,16 @@ class ReadConfig:
         return password
 
     @staticmethod
+    def getUserMail_V():
+        userid = config.get('common info', 'user_vendor')
+        return userid
+
+    @staticmethod
+    def getPassword_V():
+        password = config.get('common info', 'password_vendor')
+        return password
+
+    @staticmethod
     def getName():
         name = config.get('common info', 'name')
         return name

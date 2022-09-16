@@ -57,6 +57,7 @@ class Test_006_enquiryBanquests:
         self.lb.setbuget()
         self.lb.setaddReq()
         self.lb.setacc_term()
+        self.lb.setSubmit()
 
 
         time.sleep(3)
