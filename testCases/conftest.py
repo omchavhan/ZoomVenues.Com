@@ -15,6 +15,7 @@ def setup(browser):
     if browser == 'chrome':
        driver = webdriver.Chrome(executable_path="C:\\Users\\GiTESH SONAR\\PycharmProjects\\ZoomVenues.Com\\chromedriver.exe")
        driver.maximize_window()
+       driver.implicitly_wait(4)
        print("Launching Chrome Browser.....")
     elif browser == 'firefox':
         driver = webdriver.Firefox(executable_path="C:\\Users\\GiTESH SONAR\\PycharmProjects\\ZoomVenues.Com\\geckodriver.exe")

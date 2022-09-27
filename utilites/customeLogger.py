@@ -9,3 +9,4 @@ class LogGen:
         logger.setLevel(logging.DEBUG)
         return logger
 
+

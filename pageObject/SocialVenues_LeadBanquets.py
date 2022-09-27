@@ -8,7 +8,7 @@ from selenium.webdriver.support.select import Select
 
 class SocialVenues:
     socialVenues_Xpath = "//a[@href='#'][normalize-space()='Social Venues']"
-    banquets_xpath = "(//a[contains(text(),'Banquets')])[1]"
+    Convention_Centre_xpath = "(//a[contains(text(),'Convention Centre')])[1]"
     your_name_css = "div[id='venuemodalen2'] input[placeholder='Your Name *']"
     mail_id_css = "div[id='venuemodalen2'] input[placeholder='Email Address*']"
     phone_no_css = "div[id='venuemodalen2'] input[placeholder='Phone Number *']"
@@ -35,8 +35,8 @@ class SocialVenues:
         social_venues = self.driver.find_element(By.XPATH,self.socialVenues_Xpath)
         action = ActionChains(self.driver)
         action.move_to_element(social_venues).perform()
-        banquets_c = self.driver.find_element(By.XPATH,self.banquets_xpath)
-        self.driver.execute_script("arguments[0].click();", banquets_c)
+        Convention_Centre = self.driver.find_element(By.XPATH,self.Convention_Centre_xpath)
+        self.driver.execute_script("arguments[0].click();", Convention_Centre)
 
     def setName(self,name):
         your_name = self.driver.find_element(By.CSS_SELECTOR,self.your_name_css)

@@ -89,6 +89,18 @@ class ReadConfigg:
         cmdBH = config.get('BusinessHubs info', 'cmdforBH')
         return cmdBH
 
+    @staticmethod
+    def getBHOfferPrice():
+        bhoffprice = config.get('BusinessHubs info', 'bhoffprice')
+        return bhoffprice
+
+    @staticmethod
+    def getZv2comission():
+        zv2comission = config.get('BusinessHubs info', 'zv2comission')
+        return zv2comission
+
+
+
 
 
 

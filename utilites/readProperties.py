@@ -59,4 +59,24 @@ class ReadConfig:
         no_people = config.get('common info', 'no_people')
         return no_people
 
+    @staticmethod
+    def getCardNo():
+        card_no = config.get('common info', 'card_no')
+        return card_no
+
+    @staticmethod
+    def getCardExpDate():
+        card_exp_date = config.get('common info', 'card_exp_date')
+        return card_exp_date
+
+    @staticmethod
+    def getCardCVV():
+        card_cvv = config.get('common info', 'card_cvv')
+        return card_cvv
+
+    @staticmethod
+    def getCmdResp():
+        cmd_resp = config.get('common info', 'cmd_resp')
+        return cmd_resp
+
 

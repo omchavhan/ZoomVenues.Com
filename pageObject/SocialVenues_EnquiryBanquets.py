@@ -7,6 +7,7 @@ from selenium.webdriver.support.select import Select
 
 class EnquryBanquets:
     select_enqury_xpath = "(//*[@title='Make An Enquiry'])[1]"
+    # select_enqury_xpath = "a[onclick="enquireVenueList('591','PyTest - 1','653')"][title='Make An Enquiry"]"
     close_popup_css = "div[id='venuemodalen5'] div[class='close-reg'] i[class='fal fa-times']"
     name_css = "div[class='col-md-6 col-xs-12 rightspace'] input[placeholder='Your Name *']"
     mail_css = "div[class='col-md-6 col-xs-12 leftspace'] input[placeholder='Email Address*']"
