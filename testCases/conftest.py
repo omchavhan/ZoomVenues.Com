@@ -34,17 +34,17 @@ def browser(request):   #This will return the browser value to setup methos
     return request.config.getoption("--browser")
 
 
-#################### Pytest Report #######################
+################### Pytest Report #######################
 
-#It is hook for Adding Environmet info to HTML.
-# def pytest_configure(config):
-#     config._metadata['Project Name'] = 'Zoomvenues.com'
-#     config._metadata['Model Name'] = 'Admin LogIN'
-#     config._metadata['Tester'] = 'Om Chavan'
-#
-#
-# #It is hook for delet/Modify Enviroment info to HTML Report
-#
-# def pytest_metadata(metadata):
-#     metadata.pop("JAVA_HOME",None)
-#     metadata.pop("Plugins", None)
+# It is hook for Adding Environmet info to HTML.
+def pytest_configure(config):
+    config._metadata['Project Name'] = 'Zoomvenues.com'
+    config._metadata['Model Name'] = 'Corkage Flow'
+    config._metadata['Tester'] = 'Ombhagyesh Chavan'
+
+
+#It is hook for delet/Modify Enviroment info to HTML Report
+
+def pytest_metadata(metadata):
+    metadata.pop("JAVA_HOME",None)
+    metadata.pop("Plugins", None)

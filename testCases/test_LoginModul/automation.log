@@ -1,0 +1,5 @@
+09/28/2022 03:34:07 PM: INFO: *****************Test_001_login******************
+09/28/2022 03:34:07 PM: INFO: **************Verify HomePage Title******************
+09/28/2022 03:34:10 PM: ERROR: **************Home Page title Test are Fail******************
+09/28/2022 03:34:27 PM: INFO: **************Verifing LogIn Test******************
+09/28/2022 03:34:44 PM: ERROR: **************LogIn Test Login Link Failed******************

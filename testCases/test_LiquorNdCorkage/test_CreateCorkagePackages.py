@@ -67,47 +67,6 @@ class Test_EditCokargeModul:
         time.sleep(2)
         self.logger.info("................ Create Cokarge Packge ...............")
         self.cm.click_create_package()
-        # self.cm.click_corkagelist()
-        self.logger.info("................ End Test ..............")
-        # select type ----------
-        time.sleep(2)
-        self.cs = Cokarge_SelectItems(self.driver)
-        self.cs.select_type() # loop use
-        time.sleep(2)
-        self.cs.enter_Qunity(self.Qty)
-        time.sleep(2)
-        self.cs.select_unit()
-        time.sleep(2)
-        self.cs.enter_price(self.price)
-        time.sleep(2)
-        self.cs.click_Add_cokarge()
-        time.sleep(2)
-        self.logger.info("................ Delete Item ...............")
-        self.cs.click_delete()
-        time.sleep(3)
-        self.cs.select_type()  # loop use
-        time.sleep(2)
-        self.cs.enter_Qunity(self.Qty)
-        time.sleep(2)
-        self.cs.select_unit()
-        time.sleep(2)
-        self.cs.enter_price(self.price)
-        time.sleep(2)
-        self.cs.click_Add_cokarge()
-        time.sleep(2)
+        self.cm.click_corkagelist()
         self.driver.quit()
-        self.logger.info("................ Test End ...............")
-
-        # for x in range(1,3):
-        #     self.cs.select_type()  # loop use
-        #     self.cs.select_Qunity(self.Qty)
-        #     self.cs.select_unit()
-        #     self.cs.enter_price(self.price)
-        #     self.cs.click_Add_cokarge()
-        #     self.logger.info("................ Delete Item ...............")
-        #     self.cs.click_delete()
-        # self.logger.info("................ Test End ...............")
-
-
-
-
+        self.logger.info("................ End Test ..............")

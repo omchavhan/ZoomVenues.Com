@@ -18,6 +18,22 @@ class Test_liquorModul:
 
     logger = LogGen.loggen()
 
+    def test_AdminTitle(self,setup):
+        self.logger.info("***************** Test_start ******************")
+        self.logger.info("**************Verify HomePage Title******************")
+        self.driver = setup
+        self.driver.get(self.base_URL)
+        act_title = self.driver.title
+
+        if act_title == "Zoomvenues | Dashboard ":
+            self.driver.close()
+            self.logger.info("************** Admin Dashboard Page title Test are Passed ******************")
+            assert True
+        else:
+            self.logger.error("************** Admin Dashboard  Page title Test are Fail ******************")
+            self.driver.save_screenshot("C:\\Users\\GiTESH SONAR\\PycharmProjects\\ZoomVenues.Com\\ScreenShots\\test_AdminpageTitle2.png")
+            self.driver.close()
+            assert False
 
     def test_liquor_modul(self,setup):
         self.logger.info("................ Liquor Page Test ...............")

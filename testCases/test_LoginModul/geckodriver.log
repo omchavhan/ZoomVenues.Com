@@ -1,0 +1,81 @@
+1664341768826	geckodriver	INFO	Listening on 127.0.0.1:57423
+1664341771855	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57424" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\GITESH~1\\AppData\\Local\\Temp\\rust_mozprofile8Vm3g6"
+1664341775029	Marionette	INFO	Marionette enabled
+1664341775053	Marionette	INFO	Listening on port 57433
+Read port: 57433
+WebDriver BiDi listening on ws://127.0.0.1:57424
+1664341775731	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GITESH~1\\AppData\\Local\\Temp\\rust_mozprofile8Vm3g6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57424/devtools/browser/2a603c38-a778-42ba-ba4a-fb2ce291f91a
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: http://zoomvenues.info/, line 2727: ReferenceError: $ is not defined
+1664341796569	Marionette	INFO	Stopped listening on port 57433
+!!! error running onStopped callback: TypeError: callback is not a function
+[Parent 12452, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:554
+1664341815476	geckodriver	INFO	Listening on 127.0.0.1:50535
+1664341818586	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50536" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\GITESH~1\\AppData\\Local\\Temp\\rust_mozprofileE8GfCo"
+1664341821510	Marionette	INFO	Marionette enabled
+1664341821546	Marionette	INFO	Listening on port 50545
+Read port: 50545
+WebDriver BiDi listening on ws://127.0.0.1:50536
+1664341822590	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GITESH~1\\AppData\\Local\\Temp\\rust_mozprofileE8GfCo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50536/devtools/browser/5b7bb905-33f2-4bc9-8707-c58e0cf340cf
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: http://zoomvenues.info/, line 2740: ReferenceError: $ is not defined
+1664341849956	Marionette	INFO	Stopped listening on port 50545
+!!! error running onStopped callback: TypeError: callback is not a function
+1664342188037	geckodriver	INFO	Listening on 127.0.0.1:50625
+1664342191061	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50626" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\GITESH~1\\AppData\\Local\\Temp\\rust_mozprofileNkFZVE"
+1664342192587	Marionette	INFO	Marionette enabled
+1664342192611	Marionette	INFO	Listening on port 50635
+Read port: 50635
+WebDriver BiDi listening on ws://127.0.0.1:50626
+1664342193441	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GITESH~1\\AppData\\Local\\Temp\\rust_mozprofileNkFZVE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50626/devtools/browser/f89860d9-cf6e-49e9-90d3-700c643c71f9
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: http://zoomvenues.info/, line 2740: ReferenceError: $ is not defined
+1664342211895	Marionette	INFO	Stopped listening on port 50635
+!!! error running onStopped callback: TypeError: callback is not a function
+1664342217258	geckodriver	INFO	Listening on 127.0.0.1:58939
+1664342220266	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58940" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\GITESH~1\\AppData\\Local\\Temp\\rust_mozprofilejJJNjW"
+1664342221677	Marionette	INFO	Marionette enabled
+1664342221696	Marionette	INFO	Listening on port 58949
+Read port: 58949
+WebDriver BiDi listening on ws://127.0.0.1:58940
+1664342222380	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GITESH~1\\AppData\\Local\\Temp\\rust_mozprofilejJJNjW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58940/devtools/browser/76fd379e-3eb4-4b5b-8795-49761f20f11e
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: http://zoomvenues.info/, line 2739: ReferenceError: $ is not defined
+1664342245791	Marionette	INFO	Stopped listening on port 58949
+!!! error running onStopped callback: TypeError: callback is not a function
+1664359432398	geckodriver	INFO	Listening on 127.0.0.1:60849
+1664359435518	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60850" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\GITESH~1\\AppData\\Local\\Temp\\rust_mozprofileselyY9"
+1664359438412	Marionette	INFO	Marionette enabled
+1664359438431	Marionette	INFO	Listening on port 60859
+Read port: 60859
+WebDriver BiDi listening on ws://127.0.0.1:60850
+1664359439058	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GITESH~1\\AppData\\Local\\Temp\\rust_mozprofileselyY9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60850/devtools/browser/d197d71e-82e4-4abc-8e5e-845d8ab0948d
+1664359450723	Marionette	INFO	Stopped listening on port 60859
+1664359455260	geckodriver	INFO	Listening on 127.0.0.1:55709
+1664359458304	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55710" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\GITESH~1\\AppData\\Local\\Temp\\rust_mozprofileRgYhxa"
+1664359460181	Marionette	INFO	Marionette enabled
+1664359460204	Marionette	INFO	Listening on port 55719
+Read port: 55719
+WebDriver BiDi listening on ws://127.0.0.1:55710
+1664359460923	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GITESH~1\\AppData\\Local\\Temp\\rust_mozprofileRgYhxa\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55710/devtools/browser/de2889fd-91e5-469e-97f7-653ee3c29c68
+JavaScript error: http://zoomvenues.info/, line 2738: ReferenceError: $ is not defined
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1664359484876	Marionette	INFO	Stopped listening on port 55719
+!!! error running onStopped callback: TypeError: callback is not a function

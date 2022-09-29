@@ -34,6 +34,7 @@ class Test_CokargeSelectItems:
 
         if act_title == "🧨 Trying to get property 'data' of non-object":
             self.driver.refresh()
+            time.sleep(2)
         else:
             self.logger.info("................ Cokarge Page Test ...............")
             self.driver = setup
@@ -49,8 +50,8 @@ class Test_CokargeSelectItems:
             self.ce = Edit_cokarge_list_page(self.driver)
             self.ce.click_edit()
             time.sleep(2)
-
-            for select in range(1, 4):
+            self.logger.info("................ Select Corkage...............")
+            for select1 in range(0, 4):
                 self.cs = Cokarge_SelectItems(self.driver)
                 time.sleep(2)
                 self.cs.select_type()  # loop use
@@ -63,6 +64,9 @@ class Test_CokargeSelectItems:
                 time.sleep(2)
                 self.cs.enter_remark(self.Remark)
                 self.cs.click_Add_cokarge()
+                print("Corkage Select ...")
+            self.driver.quit()
+            self.logger.info("................ End Test...............")
 
 
 

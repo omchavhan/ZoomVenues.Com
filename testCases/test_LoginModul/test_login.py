@@ -1,3 +1,4 @@
+import logging
 import time
 
 from pageObject.Login_Modul.LoginPage import LoginPage
@@ -23,14 +24,14 @@ class Test_001_login:
         act_title = self.driver.title
 
         if act_title == "Best venues in Dubai - zoomvenues.info":
-            self.logger.info("**************Home Page title Test are Passed******************")
             self.driver.close()
+            self.logger.info("**************Home Page title Test are Passed******************")
             assert True
 
         else:
             self.logger.error("**************Home Page title Test are Fail******************")
-            self.driver.save_screenshot(".\\Screenshots\\" + "test_homepageTitle.png")
             self.driver.close()
+            self.driver.save_screenshot(".\\Screenshots\\" + "test_homepageTitlenew.png")
             assert False
 
     # @pytest.mark.sanity
@@ -55,7 +56,7 @@ class Test_001_login:
         else:
             # self.driver.close()
             self.logger.error("**************LogIn Test Login Link Failed******************")
-            self.driver.save_screenshot(".\\ScreenShots\\" + "test_logins1.png")
+            self.driver.save_screenshot("C:\\Users\\GiTESH SONAR\\PycharmProjects\\ZoomVenues.Com\\ScreenShots\\" + "test_loginsnew.png")
             self.driver.close()
             assert False
 

@@ -1,0 +1,39 @@
+1664441873000	geckodriver	INFO	Listening on 127.0.0.1:49878
+1664441876108	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49879" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\GITESH~1\\AppData\\Local\\Temp\\rust_mozprofileSU56bX"
+1664441877402	Marionette	INFO	Marionette enabled
+1664441877422	Marionette	INFO	Listening on port 49888
+Read port: 49888
+WebDriver BiDi listening on ws://127.0.0.1:49879
+1664441877995	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GITESH~1\\AppData\\Local\\Temp\\rust_mozprofileSU56bX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49879/devtools/browser/0e258024-30b1-4a7b-9647-5283afb73cb9
+JavaScript error: http://zoomvenues.info/, line 2727: ReferenceError: $ is not defined
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1664441894569	Marionette	INFO	Stopped listening on port 49888
+1664442032114	geckodriver	INFO	Listening on 127.0.0.1:51103
+1664442035153	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51104" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\GITESH~1\\AppData\\Local\\Temp\\rust_mozprofileAlDfOU"
+1664442036424	Marionette	INFO	Marionette enabled
+1664442036442	Marionette	INFO	Listening on port 51113
+Read port: 51113
+WebDriver BiDi listening on ws://127.0.0.1:51104
+1664442036951	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GITESH~1\\AppData\\Local\\Temp\\rust_mozprofileAlDfOU\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51104/devtools/browser/1eb8967a-e95d-4b12-8444-6c98b8a53ab8
+JavaScript error: http://zoomvenues.info/, line 2734: ReferenceError: $ is not defined
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1664442052276	Marionette	INFO	Stopped listening on port 51113
+1664442136817	geckodriver	INFO	Listening on 127.0.0.1:54828
+1664442139843	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54829" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\GITESH~1\\AppData\\Local\\Temp\\rust_mozprofileF3GJug"
+1664442140922	Marionette	INFO	Marionette enabled
+1664442140939	Marionette	INFO	Listening on port 54838
+Read port: 54838
+WebDriver BiDi listening on ws://127.0.0.1:54829
+1664442141438	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GITESH~1\\AppData\\Local\\Temp\\rust_mozprofileF3GJug\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54829/devtools/browser/30aaf8eb-1f99-4051-91ff-183b9a8fa5c7
+JavaScript error: http://zoomvenues.info/, line 2732: ReferenceError: $ is not defined
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1664442154525	Marionette	INFO	Stopped listening on port 54838

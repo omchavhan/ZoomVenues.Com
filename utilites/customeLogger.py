@@ -1,12 +1,25 @@
+
 import logging
 
 class LogGen:
     @staticmethod
     def loggen():
-        logging.basicConfig(filename="C:\\Users\\GiTESH SONAR\\PycharmProjects\\ZoomVenues.Com\\Logs\\automation1.log",
-                            format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
-        logger = logging.getLogger()
-        logger.setLevel(logging.DEBUG)
+        # getLogger() method takes the test case name as input
+        logger = logging.getLogger("ZoomVenues")
+        # FileHandler() method takes location and path of log file
+        fileHandler = logging.FileHandler("C:\\Users\\GiTESH SONAR\\PycharmProjects\\ZoomVenues.Com\\Logs\\CorkageAllFlow.log")
+        # Formatter() method takes care of the log file formatting
+        formatter = logging.Formatter("%(asctime)s :%(levelname)s :%(name)s :%(message)s")
+        fileHandler.setFormatter(formatter)
+        # addHandler() method takes fileHandler object as parameter
+        logger.addHandler(fileHandler)
+        # setting the logger level
+        logger.setLevel(logging.INFO)
+        print("--------------------------------------------------------------------")
         return logger
+
+
+
+
 
 

@@ -21,17 +21,17 @@ class Test_003_adminLogin:
         self.lp = AdminPage(self.driver)
         admin_title = self.driver.title
 
-        if admin_title =="Best venues in Dubai - zoomvenues.info":
+        if admin_title =="Best venues in Dubai - zoomvenues.info5":
             self.logger.info("................ Admin Page Login Title Pass ...............")
             assert True
             self.driver.close()
         else:
             self.logger.info("................ Admin Page Login Title Fail ...............")
-            self.driver.save_screenshot("C:\\Users\\GiTESH SONAR\\PycharmProjects\\GoogleAuto\\ScreenShots\\" + "admin_homepageTitle.png")
+            self.driver.save_screenshot("C:\\Users\\GiTESH SONAR\\PycharmProjects\\ZoomVenues.Com\\ScreenShots\\" + "admin_homepageTitle.png")
             self.driver.close()
             assert False
 
-
+    @pytest.mark.skip
     @pytest.mark.sanity
     def test_admin_login(self,setup):
         self.logger.info("................ Admin Page Login Test ...............")
