@@ -1,0 +1,1 @@
+pytest -s -v PycharmProjects\ZoomVenues.Com\testCases\test_digitalmarketing.py --browser chrome
